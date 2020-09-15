@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class GitExercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter two numbers that you want to add:");
-		int x=sc.nextInt();
+		int x=sc.nextInt();//takes to numbers as user input
 		int y=sc.nextInt();
-		int z=x+y;
-		System.out.println(x+"+"+y+"="+z);
+		int z=x+y;//adds the two numbers together
+		System.out.println(x+"+"+y+"="+z);//displays the calculation and the result
 		sc.close();
 	}
 
