@@ -14,14 +14,13 @@ public class GitExercise {
 			int y=sc.nextInt();
 			int z=x+y;//adds the two numbers together
 			System.out.println(x+"+"+y+"="+z);//displays the calculation and the result
-			}
-		if(i==1) {
+			}else if(i==1) {
 			System.out.println("Enter two numbers that you want to subtract:");
 			int x=sc.nextInt();//takes to numbers as user input
 			int y=sc.nextInt();
 			int z=x-y;//subtracts the two numbers
 			System.out.println(x+"-"+y+"="+z);//displays the calculation and the result
-		}else {System.out.println("error, please restart the program.");}
+		}else {System.out.println("error, please restart the program.");}//comment to add to the master branch
 		sc.close();
 	}
 }
